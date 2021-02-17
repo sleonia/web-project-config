@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sleonia/Test-assigments.git"
+    "url": "git+https://github.com/sleonia/web-project-config.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sleonia/Test-assigments/issues"
+    "url": "https://github.com/sleonia/web-project-config/issues"
   },
-  "homepage": "https://github.com/sleonia/Test-assigments#readme",
+  "homepage": "https://github.com/sleonia/web-project-config#readme",
   "dependencies": {
     "@babel/preset-react": "^7.12.13",
     "@babel/preset-typescript": "^7.12.16",
