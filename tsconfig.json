@@ -18,8 +18,16 @@
         "noImplicitReturns": true,
         "esModuleInterop": true,
         "noFallthroughCasesInSwitch": true,
-        "strictFunctionTypes": true
+        "strictFunctionTypes": true,
+		"typeRoots": [
+			"node_modules/@types",
+			"types"
+		]
     },
-    "include": ["src/**/*"],
+    "include": [
+		"src/**/*.ts",
+		"src/**/*.tsx",
+		"types/*.d.ts"
+	],
     "exclude": [ "node_modules" ]
 }

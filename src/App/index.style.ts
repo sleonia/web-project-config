@@ -9,3 +9,7 @@ export const AppStyled = styled.div`
     padding: 10px;
     margin: auto;
 `;
+
+export const CatStyled = styled.img`
+    height: 40%;
+`;

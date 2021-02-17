@@ -32,6 +32,31 @@ module.exports = {
                 test: /\.css$/,
                 loader: 'css-loader',
             },
+            {
+                test: /\.(png|jpe?g|gif)$/,
+                use: [
+                    {
+                        loader: 'file-loader',
+                        options: {
+                            name: 'images/[hash:base64].[ext]',
+                        },
+                    },
+                ],
+            },
+            {
+                test: /\.svg$/,
+                include: [
+                    path.resolve(__dirname, 'assets/icons'),
+                ],
+                use: [{
+                    loader: 'svg-inline-loader',
+                    options: {
+                        removeTags: true,
+                        removingTags: ['title', 'desc'],
+                        removeSVGTagAttrs: false,
+                    },
+                }],
+            },
         ],
     },
     plugins: [

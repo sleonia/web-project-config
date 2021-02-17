@@ -1,7 +1,9 @@
 import React, { FunctionComponent } from 'react';
 import { useTranslation } from 'react-i18next';
 
-import { AppStyled } from './index.style';
+import { AppStyled, CatStyled } from './index.style';
+
+import cat from '../assets/images/Cat.png';
 
 export const App: FunctionComponent = () => {
     const { t } = useTranslation();
@@ -10,6 +12,7 @@ export const App: FunctionComponent = () => {
         <AppStyled>
             <p>{t('hello')}</p>
             <p>{'И всё это в styled-компоненте'}</p>
+            <CatStyled src={cat} alt="cool cat" />
         </AppStyled>
     );
 };
