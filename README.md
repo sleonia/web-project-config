@@ -1,2 +1,3 @@
-# Test-assigments
-Simple game with balls
+### Приложение размещается по адресу http://localhost:8080
+
+### Приложение предоставляет готовый шаблон для веб-проекта с использованием технологий `React`, `Typescript`, `Styled-Components`, `Webpack`, `Babel`

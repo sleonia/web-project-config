@@ -29,8 +29,7 @@
     "i18next": "^19.8.7",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-i18next": "^11.8.7",
-    "ts-node": "^9.1.1"
+    "react-i18next": "^11.8.7"
   },
   "devDependencies": {
     "@babel/cli": "^7.12.1",
