@@ -1,2 +1,2 @@
-# web-project-config
-My configuration for react-typescript project
+# Test-assigments
+Simple game with balls

@@ -1,0 +1,58 @@
+{
+  "name": "web-project-config",
+  "version": "1.0.0",
+  "description": "My own config",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack-config.js",
+    "lint": "eslint 'src/**/*.{js,ts,tsx}'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sleonia/Test-assigments.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sleonia/Test-assigments/issues"
+  },
+  "homepage": "https://github.com/sleonia/Test-assigments#readme",
+  "dependencies": {
+    "@babel/preset-react": "^7.12.13",
+    "@babel/preset-typescript": "^7.12.16",
+    "@emotion/react": "^11.1.5",
+    "@emotion/styled": "^11.1.5",
+    "@typescript-eslint/eslint-plugin": "^4.15.0",
+    "@typescript-eslint/parser": "^4.15.0",
+    "eslint": "^7.20.0",
+    "i18next": "^19.8.7",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-i18next": "^11.8.7",
+    "ts-node": "^9.1.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-typescript": "^7.12.1",
+    "@svgr/webpack": "^5.4.0",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.1",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^3.5.2",
+    "file-loader": "^6.1.1",
+    "html-webpack-plugin": "^4.2.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "prettier": "^2.1.2",
+    "source-map-loader": "^0.2.4",
+    "typescript": "^3.9.7",
+    "unused-files-webpack-plugin": "^3.4.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
