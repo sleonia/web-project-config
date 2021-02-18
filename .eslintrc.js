@@ -10,7 +10,7 @@ module.exports = {
     ],
 
     rules: {
-        'indent': ['error', 4],
+        'indent': ['error', 4, {'SwitchCase': 1}],
         semi: 'error',
         quotes: ['error', 'single'],
         'no-multi-spaces': 'error',
