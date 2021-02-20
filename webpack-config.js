@@ -13,7 +13,6 @@ module.exports = {
     },
     resolve: {
         extensions: ['.ts', '.tsx', '.js', '.jsx'],
-        modules: ['src', 'node_modules'],
     },
     devServer: {
         contentBase: path.resolve(__dirname, 'build'),
@@ -46,16 +45,9 @@ module.exports = {
             {
                 test: /\.svg$/,
                 include: [
-                    path.resolve(__dirname, 'assets/icons'),
+                    path.resolve(__dirname, 'src/assets/icons'),
                 ],
-                use: [{
-                    loader: 'svg-inline-loader',
-                    options: {
-                        removeTags: true,
-                        removingTags: ['title', 'desc'],
-                        removeSVGTagAttrs: false,
-                    },
-                }],
+                use: ['@svgr/webpack', 'url-loader'],
             },
         ],
     },
