@@ -4,7 +4,7 @@
   "description": "My own config",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --config ./webpack-config.js",
+    "start": "ts-node stub/index.ts",
     "lint": "eslint 'src/**/*.{js,ts,tsx}'"
   },
   "repository": {
@@ -29,7 +29,9 @@
     "i18next": "^19.8.7",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-i18next": "^11.8.7"
+    "react-i18next": "^11.8.7",
+    "svg-inline-loader": "^0.8.2",
+    "webpack-dev-middleware": "^4.1.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.12.1",
