@@ -69,5 +69,6 @@ module.exports = {
                 balanced: false
             }
         }],
+        'object-curly-spacing': ['error', 'always']
     }
 };
